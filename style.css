@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.body{
+
+    width: 100%;
+}
+/* NAVBAR */
+
+.navbar{
+    width: 100%;
+    background: #FFFDD0;
+}
+
+.menu{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.menu h1{
+    color: coral;
+    width: 60%;
+    margin: auto;
+    font-family: Merienda, sans-serif;
+    font-size: 36px;
+}
+
+#fa{
+    float: left;
+    color: coral;
+    font-size: 38px;
+    margin: 4px;
+}
+
+.login{
+    float: right;
+    padding: 6px 14px;
+    font-size: 18px;
+    background: none;
+    color: rgb(161, 161, 161);
+    border: 2px solid rgb(175, 173, 173);
+    border-radius: 6px;
+    margin-top: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* BACKGROUND */
+
+.back{
+    height: 536px;
+}
+
+.background img{
+    position: absolute;
+    z-index: -100;
+    opacity: 100%;
+    margin: auto;
+    width: 100%;
+}
+
+.qoute{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-family: Oswald, sans-serif;
+    font-size: larger;
+    padding-top: 90px;
+}
+
+.qoute h1{
+    color: rgb(0, 153, 255);
+}
+
+.qoute p{
+    color: #f2f2f2;
+}
+
+
+.start{
+    color: #f2f2f2;
+    font-size: 16px;
+    padding: 15px 30px;
+    background-color: rgb(0, 153, 255);
+    margin-top: 28px;
+    border: none;
+    border-radius: 8px;
+    font-family: Cinzel;
+}
+
+
+/* MIDDLE */
+
+
+.mid{
+    width: 100%;
+    /* background-color: #FFFDD0; */
+
+}
+
+.inmid{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 25px;
+}
+
+.middle{
+    margin: 20px;
+
+}
+
+.middle h1{
+    color: rgb(0, 110, 255);
+    margin-bottom: 20px;
+}
+
+.middle p{
+    color: rgb(112, 111, 111);
+}
+
+.left{
+    text-align: right;
+    margin: 25px 0;
+}
+
+.middle img{
+    border-radius: 250px;
+    margin-top: 40px;
+}
+
+.right{
+    margin: 25px 0;
+}
+
+/* BETWEEN */
+
+.bet{
+    width: 100%;
+    background-color: coral;
+}
+
+.between{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 80px 0 80px 0;
+    color: #f2f2f2;
+}
+
+.between h1{
+
+    margin: 25px 0 55px 0;
+}
+.para{
+
+    margin: 55px 0 55px 0;
+    
+}
+
+.gal{
+    width: 100%;
+}
+
+.gallery{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+}
+
+.img{
+    border: 2px solid silver;
+    display: borde;
+    /* text-align: center; */
+    width: 22%;
+    margin: auto;
+}
+
+.text{
+    padding: 10px;
+}
+
+.text h3{
+    color: rgb(0, 110, 255);
+}
+
+.text p{
+    color: rgb(78, 78, 78);
+}
+
+.footer{
+    width: 100%;
+    background-color: rgb(0, 153, 255);
+    color: #f2f2f2;
+}
+
+.foot{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.head{
+    margin: 20px;
+}
+
+.one{
+    margin: 100px;
+    font-size: larger;
+    padding: 10px;
+}
+
+.bottom{
+    margin-top: 30px;
+}
+
+#other{
+    border-bottom: 2px solid silver;
+}
